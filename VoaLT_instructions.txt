@@ -1,0 +1,19 @@
+Variations on a Lonely Theme
+for 5-string electric bass and live electronics
+composed by Brandon Green, winter 2009
+
+This patch was created by Brandon Green, with the assistance of Mike Frengel. The patch acts a live performance aid to the bass performer, providing tempo indicators, live processing of the bass signal, as well as several pre-recorded sounds to be triggered by a MIDI foot pedeal.
+
+To use the patch for a performance:
+
+1) Open the main patcher. (Hey, you've already done this)
+
+2) Open the "DSP Settings" to configure your audio interface. Buffer settings should be set at the lowest possible, to allow for near-instant live processing.
+
+3) Click on the "open index list" button to load the pre-recorded cues into the patch. When you are prompted to open a file, choose "VoaLT_sounds.txt". This is a text file that instructs the patcher what sounds to play at what given cue.
+
+4) Test your MIDI foot pedal, and when functional, the "MIDI input" light will flash. Once the pedal is recognized by the patcher, selected "pedal online" to use in the patch.
+
+5) Finally, toggle on Audio by clicking on the "audio on/off" button. This will turn on the bass signal in the patch. 
+
+6) The work starts at cue #1. Tap the MIDI foot pedal once to reach this first cue. For rehearsal purposes, a "rehearsal skip" drop-down menu is provided to skip to different cues.
